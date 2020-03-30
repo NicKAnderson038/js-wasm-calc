@@ -11,7 +11,7 @@
     "open-cli": "^6.0.1"
   },
   "scripts": {
-    "serve": "nodemon ./server.js",
+    "dev": "nodemon ./server.js",
     "start": "open-cli http://localhost:4000 && node ./server.js"
   }
 }
