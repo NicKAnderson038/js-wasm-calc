@@ -6,10 +6,22 @@
 2. WASM file contains calculation functionality for the application.
 3. Benefits using <a href="https://webassembly.org/" taget="_blank">WASM</a> file types.
 
-### Requirements
+### Requirements & Running application
 
-1. Install node.js machine.
-2. Run application on webserver. (currently using Live Share extension from VS code)
+1. Install <a href="https://nodejs.org/en/" target="_blank">Node.js</a> on your machine.
+2. Command line instructions.
+
+```bash
+# Run appication with Yarn
+yarn
+yarn start
+
+# Or run with Npm
+npm install
+npm run start
+```
+
+_Where to get <a href="https://yarnpkg.com/" target="_blank">Yarn</a> or in mac cmd: `brew install yarn`._
 
 ### Creating WASM files
 
@@ -21,3 +33,4 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="200"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/WebAssembly_Logo.svg/1200px-WebAssembly_Logo.svg.png" width="200"/>
+<img src="https://user-images.githubusercontent.com/13700/35731649-652807e8-080e-11e8-88fd-1b2f6d553b2d.png" width="200"/>
