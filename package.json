@@ -1,0 +1,8 @@
+{
+  "name": "js-wasm-calc",
+  "version": "1.0.0",
+  "description": "javacript wasm calculator",
+  "main": "script.js",
+  "author": "NicKAnderson038 <andersonnick038@gmail.com>",
+  "license": "MIT"
+}
