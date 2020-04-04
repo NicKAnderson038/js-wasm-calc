@@ -1,4 +1,4 @@
-let wasmExports = null
+let $wasmExports = null
 
 const wasmMemory = new WebAssembly.Memory({ initial: 256, maximum: 256 })
 
@@ -26,7 +26,7 @@ async function loadWasm() {
   const response = await fetch('arithmetic.wasm')
   const bytes = await response.arrayBuffer()
   const wasmObj = await WebAssembly.instantiate(bytes, info)
-  wasmExports = wasmObj.instance.exports
+  $wasmExports = wasmObj.instance.exports
 }
 
 loadWasm()

@@ -7,7 +7,8 @@ app.get('/', (req, res) => {
 })
 
 app.get(/^(.+)$/, (req, res) => {
-  console.log(`static file request : ${req.params}`)
+  /* static file request */
+  console.log(req.params)
   res.sendFile(__dirname + req.params[0])
 })
 

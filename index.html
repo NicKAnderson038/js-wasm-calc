@@ -182,16 +182,16 @@
         let result = 0
         switch (operation) {
           case '+':
-            result = wasmExports.add(arg1, arg2)
+            result = $wasmExports.add(arg1, arg2)
             break
           case '-':
-            result = wasmExports.subtract(arg1, arg2)
+            result = $wasmExports.subtract(arg1, arg2)
             break
           case '*':
-            result = wasmExports.multiply(arg1, arg2)
+            result = $wasmExports.multiply(arg1, arg2)
             break
           case '/':
-            result = wasmExports.divide(arg1, arg2)
+            result = $wasmExports.divide(arg1, arg2)
             break
         }
         spanOutput.innerHTML = result
