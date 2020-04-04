@@ -1,13 +1,13 @@
 const express = require('express')
 const app = express()
 const port = 4000
-console.log(port)
+
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 })
 
 app.get(/^(.+)$/, (req, res) => {
-  console.log('static file request : ' + req.params)
+  console.log(`static file request : ${req.params}`)
   res.sendFile(__dirname + req.params[0])
 })
 
